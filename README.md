@@ -25,3 +25,5 @@ Incluye operaciones CRUD y también rutas específicas para operaciones más com
 ## Autor
 
 Arroyo, Valentin.
+
+Notas: Hola profe, disculpe si hice mal el trabajo, no estaba enterado que las clases empezaban la semana pasada y me las perdi, pero intente hacerlo con videos e IA.
