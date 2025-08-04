@@ -1,29 +1,16 @@
-# RESTFull_API con Express.js
+# API REST Biblioteca
 
-Este proyecto es una API RESTful desarrollada con Node.js y Express.js.
+Este proyecto es una API RESTful para la gestión de una biblioteca. Permite administrar libros, usuarios, préstamos y reseñas utilizando Node.js, Express y MySQL.
 
-La API permite gestionar 4 recursos principales:
+## Características
 
-- Usuarios
-- Libros
-- Préstamos
-- Reseñas
+- **Libros:** Listar, crear, actualizar, eliminar y consultar disponibilidad.
+- **Usuarios:** Listar, crear, actualizar y eliminar usuarios.
+- **Préstamos:** Registrar, consultar y eliminar préstamos de libros.
+- **Reseñas:** Crear, listar, actualizar y eliminar reseñas de libros.
 
-Incluye operaciones CRUD y también rutas específicas para operaciones más complejas.
+## Instalación
 
----
-
-## Tecnologías utilizadas
-
-- Node.js
-- Express.js
-- JavaScript (ESModules)
-- Thunder Client (para pruebas)
-
----
-
-## Autor
-
-Arroyo, Valentin.
-
-Notas: Hola profe, disculpe si hice mal el trabajo, no estaba enterado que las clases empezaban la semana pasada y me las perdi, pero intente hacerlo con videos e IA.
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/Valen0319/RESTFull_API-.git
