@@ -4,19 +4,34 @@ export const getAllBooks = async(req, res) => {
     try {
 
         let books = await getBook();
-        res.status(200).send(books);
+        res
+        .status(200)
+        .send(books);
 
     } catch (error) {
-        res.status(500).send('Error interno del servidor');
+        res
+        .status(500)
+        .send('Error interno del servidor');
     }
 }
 
+export const getAvaibleBooks = (req, res) => {
+    res
+    .status(200)
+    .send("Obtener los libros disponibles");
+}
+
 export const getBooksByID = (req, res) => {
-    res.status(200).send(`Obtener un libro por su id_libro: ${req.params.id}`);
+    res
+    
+    .status(200)
+    .send(`Obtener un libro por su id_libro: ${req.params.id}`);
 }
 
 export const createBook = (req, res) => {
-    res.status(201).send("Crear un nuevo libro");
+    res
+    .status(201)
+    .send("Crear un nuevo libro");
 }
 
 export const updateBookByID = (req, res) => {
@@ -32,5 +47,7 @@ export const updateExistenceByID = (req, res) => {
 }
 
 export const deleteBook = (req, res) => {
-    res.status(200).send(`Eliminar un libro con id: ${req.params.id}`);
+    res
+    .status(200)
+    .send(`Eliminar un libro con id: ${req.params.id}`);
 }
